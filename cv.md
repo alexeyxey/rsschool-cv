@@ -25,3 +25,13 @@ problems and improving my existing skills.
 - Responsive Web Design
 - Three.js
 - Swiper
+
+## Code example
+
+```javascript
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet("Alexey"));
+
