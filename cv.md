@@ -14,3 +14,14 @@ practical experience by working on real projects.
 
 I am responsible, persistent and willing to learn. I enjoy solving
 problems and improving my existing skills.
+
+## Skills
+
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+- Responsive Web Design
+- Three.js
+- Swiper
