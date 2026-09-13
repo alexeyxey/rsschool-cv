@@ -34,4 +34,24 @@ function greet(name) {
 }
 
 console.log(greet("Alexey"));
+```
 
+## Work Experience
+
+### Museum
+
+- Developed a responsive museum website as part of a student project.
+- Used HTML, CSS, JavaScript, and Swiper.
+- Implemented sliders and interactive elements.
+
+## Education
+
+
+- Rolling Scopes School - Front-End Development. [https://rs.school/courses/javascript](https://rs.school/courses/javascript)
+- Self-study of HTML, CSS, JavaScript, and Git.
+
+## English
+
+- Level: B1.
+- I am learning English on my own.
+- I use English when studying documentation and programming materials.
