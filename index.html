@@ -4,97 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset-style/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <title>cv</title>
 </head>
 
 <body>
-    <header class="header">
-        <nav>
-            <ul>
-                <li><a href="#contact">Contact information</a></li>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#code">Code example</a></li>
-                <li><a href="#work">Work experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#english">English</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="title">
-        <div class="title-container">
-            <div class="title-title">
-                Alexey
-            </div>
-            <div class="title-subtitle">
-                Xey
-            </div>
-        </div>
-        <div class="title-container">
-            <img src="img/vendetta.jfif" alt="" class="header-img" width="550" height="550">
-        </div>
-    </section>
-    <section id="contact" class="contact">
-        <h2 class="contact-title">Contact</h2>
-        <ul>
-            <li>
-                Discord: xeyxeyal
-            </li>
-            <li>
-                <a href="https://github.com/alexeyxey">GitHub: GitHub profile</a>
-            </li>
-        </ul>
-    </section>
-    <section class="about" id="about">
-        <h2 class="about-title">
-            About
-        </h2>
-        <p>
-            I am a beginner front-end developer interested in web development. I am motivated to improve my programming
-            skills and learn new technologies. My main goal is to become a professional front-end developer and gain
-            practical experience by working on real projects.
-        </p>
-        <p>I am responsible, persistent and willing to learn. I enjoy solving problems and improving my existing skills.
-        </p>
-    </section>
-    <section class="skills" id="skills">
-        <h2 class="skills-title">
-            Skills
-        </h2>
-        <ul>
-            <li>
-                HTML5
-            </li>
-            <li>
-                CSS3
-            </li>
-            <li>
-                JavaScript
-            </li>
-            <li>
-                Git
-            </li>
-            <li>
-                GitHub
-            </li>
-            <li>
-                Responsive Web Design
-            </li>
-            <li>
-                Three.js
-            </li>
-            <li>
-                Swiper
-            </li>
-        </ul>
-    </section>
-    <section class="code" id="code">
-        <h2 class="code-title">
-            Code example
-        </h2>
-        <pre>
-            <code>
+    <div class="container">
+        <header class="header">
+            <nav>
+                <ul>
+                    <li><a href="#contact">Contact information</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code example</a></li>
+                    <li><a href="#work">Work experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english">English</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="main-title">
+                <div class="main-title-container">
+                    <h1 class="main-title-title">
+                        Alexey
+                    </h1>
+                    <h1 class="main-title-subtitle">
+                        Xey
+                    </h1>
+                </div>
+                <div class="main-title-container">
+                    <img src="img/vendetta.jfif" alt="vendetta-img" class="header-img" width="550" height="550">
+                </div>
+            </section>
+            <section id="contact" class="contact">
+                <h2 class="contact-title title">Contact</h2>
+                <ul>
+                    <li class="text">
+                        Discord: xeyxeyal
+                    </li>
+                    <li class="text">
+                        <a href="https://github.com/alexeyxey">GitHub: GitHub profile</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="about" id="about">
+                <h2 class="about-title title">
+                    About
+                </h2>
+                <p class="text">
+                    I am a beginner front-end developer interested in web development. I am motivated to improve my
+                    programming
+                    skills and learn new technologies. My main goal is to become a professional front-end developer and
+                    gain
+                    practical experience by working on real projects.
+                </p>
+                <p class="text">I am responsible, persistent and willing to learn. I enjoy solving problems and
+                    improving my existing
+                    skills.
+                </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="skills-title title">
+                    Skills
+                </h2>
+                <ul>
+                    <li class="text">
+                        HTML5
+                    </li>
+                    <li class="text">
+                        CSS3
+                    </li>
+                    <li class="text">
+                        JavaScript
+                    </li>
+                    <li class="text">
+                        Git
+                    </li>
+                    <li class="text">
+                        GitHub
+                    </li>
+                    <li class="text">
+                        Responsive Web Design
+                    </li>
+                    <li class="text">
+                        Three.js
+                    </li>
+                    <li class="text">
+                        Swiper
+                    </li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2 class="code-title title">
+                    Code example
+                </h2>
+                <pre>
+            <code class="text">
                 function greet(name) {
   return `Hello, ${name}!`;
 }
@@ -102,39 +109,58 @@
 console.log(greet("Alexey"));
             </code>
         </pre>
-    </section>
-    <section class="work" id="work">
-        <h2 class="work-title">
-            Work
-        </h2>
-        <h3 class="work-name-title">
-            Museum
-        </h3>
-        <ul>
-            <li>Developed a responsive museum website as part of a student project.</li>
-            <li>Used HTML, CSS, JavaScript, and Swiper.</li>
-            <li>Implemented sliders and interactive elements.</li>
-        </ul>
-    </section>
-    <section class="education" id="education">
-        <h2 class="education-title">
-            Education
-        </h2>
-        <ul>
-            <li>Rolling Scopes School - Front-End Development. <a href="https://rs.school/courses/javascript"></a></li>
-            <li>Self-study of HTML, CSS, JavaScript, and Git.</li>
-        </ul>
-    </section>
-    <section class="english" id="english">
-        <h2 class="english-title">
-            English
-        </h2>
-        <ul>
-            <li>Level: B1.</li>
-            <li>I am learning English on my own.</li>
-            <li>I use English when studying documentation and programming materials.</li>
-        </ul>
-    </section>
+            </section>
+            <section class="work" id="work">
+                <h2 class="work-title title">
+                    Work
+                </h2>
+                <h3 class="work-name-title">
+                    Museum
+                </h3>
+                <ul>
+                    <li class="text">Developed a responsive museum website as part of a student project.</li>
+                    <li class="text">Used HTML, CSS, JavaScript, and Swiper.</li>
+                    <li class="text">Implemented sliders and interactive elements.</li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="education-title title">
+                    Education
+                </h2>
+                <ul>
+                    <li class="text">Rolling Scopes School - Front-End Development. <a
+                            href="https://rs.school/courses/javascript"></a>
+                    </li>
+                    <li class="text">Self-study of HTML, CSS, JavaScript, and Git.</li>
+                </ul>
+            </section>
+            <section class="english" id="english">
+                <h2 class="english-title title">
+                    English
+                </h2>
+                <ul>
+                    <li class="text">Level: B1.</li>
+                    <li class="text">I am learning English on my own.</li>
+                    <li class="text">I use English when studying documentation and programming materials.</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-container">
+                    <a class="footer-link" href="https://github.com/alexeyxey">
+                        https://github.com/alexeyxey
+                    </a>
+                    <div class="footer-year">
+                        2026
+                    </div>
+                    <a class="footer-logo-container" href="https://rs.school/">
+                        <img class="footer-logo" src="img/rs-logo-white.png" alt="rs-logo">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>

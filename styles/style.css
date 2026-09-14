@@ -1,1 +1,129 @@
+body {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #010101;
+    color: white;
+}
 
+a {
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+    color: aquamarine;
+}
+
+a:hover {
+    transition: color 0.3s ease, transform 0.3s ease;
+    transform: scale(1.1);
+    text-decoration: solid;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header {}
+
+.header ul {
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title-container {
+    padding: 30px;
+    font-size: 150px;
+    color: #490404;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 90px;
+    padding: 30px;
+    color: rgb(255, 1, 136);
+}
+
+.text {
+    font-size: 40px;
+}
+
+.main-title-title {}
+
+.main-title-subtitle {}
+
+.header-img {
+    width: 100%;
+}
+
+.contact {}
+
+.contact-title {}
+
+.about {}
+
+.about-title {}
+
+.skills {}
+
+.skills-title {}
+
+.code {}
+
+.code-title {}
+
+.work {}
+
+.work-title {}
+
+.work-name-title {
+    font-size: 45px;
+    text-align: center;
+    color: rgb(112, 0, 60);
+    ;
+}
+
+.education {}
+
+.education-title {}
+
+.english {}
+
+.english-title {}
+
+.footer {}
+
+.footer-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: center;
+
+}
+
+.footer-link {}
+
+.footer-year {
+    color: yellow;
+}
+
+.footer-logo-container {
+    width: 150px;
+    height: 50px;
+}
+
+.footer-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: invert();
+}
